@@ -64,6 +64,10 @@ Pada gambar tersebut terlihat terdapat column name, data type dan deskripsi lain
   
   `SELECT * FROM produk;`
 
+  Digunakan untuk mengambil data yang spesifik dari tabel berdasarkan ekspresi logika.
+
+Hasil: Memeriksa apakah data yang diambil sesuai dengan kriteria yang diinginkan, memungkinkan untuk verifikasi data yang ada dalam tabel.
+
 ![image](https://github.com/user-attachments/assets/40229b2a-56f8-4c2e-8989-ccfe58436845)
 
 - 	Klik tombol Execute SQL Statement atau tekan Ctrl+Enter untuk menjalankan query.
@@ -78,6 +82,10 @@ Pada gambar tersebut terlihat terdapat column name, data type dan deskripsi lain
 
   `INSERT INTO produk (id ,nama_dokter , deskripsi , jam_operasional, foto_dokter) VALUES ( 24, 'Dr.Cipta', 'Spesialis Saraf', 10.00-15.00, '121.jpg');`
 
+  Menambahkan data baru ke dalam tabel dengan nilai-nilai yang sesuai dengan tipe data kolom.
+
+Hasil: Memastikan bahwa data baru dapat ditambahkan dengan benar dan muncul dalam query SELECT berikutnya.
+
  ![image](https://github.com/user-attachments/assets/804795eb-bf30-425b-9b58-a080fb4ca075)
 
 - 	Read:
@@ -88,13 +96,21 @@ Pada gambar tersebut terlihat terdapat column name, data type dan deskripsi lain
  
 - 	Update:
 
-  `UPDATE produk SET deskripsi = 'Spesialis Mata' WHERE nama_dokter = 'Dr.Pudji,Sp.An';
+  `UPDATE produk SET deskripsi = 'Spesialis Mata' WHERE nama_dokter = 'Dr.Pudji,Sp.An';`
+
+  Memperbarui data yang ada dalam tabel berdasarkan kondisi yang ditentukan.
+
+Hasil: Verifikasi bahwa perubahan diterapkan hanya pada baris yang sesuai dengan kondisi yang diberikan.
 
 ![image](https://github.com/user-attachments/assets/43ee6057-29eb-4167-b6e1-3ba030ad69f3)
 
 - 	Delete:
 
   `DELETE FROM produk WHERE nama_dokter LIKE '%JT';`
+  
+  Menghapus data dari tabel berdasarkan kondisi yang ditentukan.
+
+Hasil: Memastikan bahwa hanya baris yang sesuai dengan kondisi yang dihapus dan data yang tersisa sesuai dengan ekspektasi.
 
 ![image](https://github.com/user-attachments/assets/fe72914d-76ca-4b41-a694-a921c3f18353)
 
