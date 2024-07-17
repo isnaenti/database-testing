@@ -122,4 +122,4 @@ Hasil: Memastikan bahwa hanya baris yang sesuai dengan kondisi yang dihapus dan 
 
 ## Kesimpulan 
 
-Pengujian database adalah langkah penting untuk memastikan integritas, konsistensi, dan performa dari sistem database yang digunakan.
+Pengujian database adalah langkah penting untuk memastikan integritas, konsistensi, dan performa dari sistem database yang digunakan. Dari praktikum yang telah dilakukan dapat disimpulkan bahwa dalam langkah pengujian berhasil melakukan pengujian menambah, mengedit, melihat, dan menghapus data. Didalam aplikasi DBeaver dapat melihat berbagai table, pada praktikum ini melakukan pengujian database dalam table produk. Dan semua query yang dijankan pada pengujian ini berhasil dilakukan.
