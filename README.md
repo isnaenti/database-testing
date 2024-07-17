@@ -61,6 +61,8 @@ Pada gambar tersebut terlihat terdapat column name, data type dan deskripsi lain
 ![image](https://github.com/user-attachments/assets/ec80fc98-d440-433e-aa67-23e5236433b3)
 
 - 	Tulis query SQL yang ingin di uji yaitu table produk
+  
+  `SELECT * FROM produk;`
 
 ![image](https://github.com/user-attachments/assets/40229b2a-56f8-4c2e-8989-ccfe58436845)
 
@@ -74,22 +76,33 @@ Pada gambar tersebut terlihat terdapat column name, data type dan deskripsi lain
 5.	Pengujian CRUD (Create, Read, Update, Delete):
 - 	Create:
 
+  `INSERT INTO produk (id ,nama_dokter , deskripsi , jam_operasional, foto_dokter) VALUES ( 24, 'Dr.Cipta', 'Spesialis Saraf', 10.00-15.00, '121.jpg');`
+
  ![image](https://github.com/user-attachments/assets/804795eb-bf30-425b-9b58-a080fb4ca075)
 
 - 	Read:
+  
+  `SELECT * FROM produk WHERE nama_dokter IN ('Dr.Corla,Sp.M');`
 
 ![image](https://github.com/user-attachments/assets/c5b7771f-01ca-4bf3-a663-ba6c87cd8dd2)
  
 - 	Update:
 
+  `UPDATE produk SET deskripsi = 'Spesialis Mata' WHERE nama_dokter = 'Dr.Pudji,Sp.An';
+
 ![image](https://github.com/user-attachments/assets/43ee6057-29eb-4167-b6e1-3ba030ad69f3)
 
 - 	Delete:
+
+  `DELETE FROM produk WHERE nama_dokter LIKE '%JT';`
 
 ![image](https://github.com/user-attachments/assets/fe72914d-76ca-4b41-a694-a921c3f18353)
 
 
 6.	Menggunakan Fitur Visual DBeaver:
 - 	DBeaver juga menyediakan berbagai fitur visual seperti diagram ER, editor data, dan alat migrasi data yang dapat membantu dalam pengujian dan pengelolaan database.
+
+![image](https://github.com/user-attachments/assets/e1cb4e87-0695-4dfe-ab2e-14ef23ee96c9)
+
  
 
