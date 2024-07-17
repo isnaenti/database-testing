@@ -120,5 +120,6 @@ Hasil: Memastikan bahwa hanya baris yang sesuai dengan kondisi yang dihapus dan 
 
 ![image](https://github.com/user-attachments/assets/e1cb4e87-0695-4dfe-ab2e-14ef23ee96c9)
 
- 
+## Kesimpulan 
 
+Pengujian database adalah langkah penting untuk memastikan integritas, konsistensi, dan performa dari sistem database yang digunakan.
