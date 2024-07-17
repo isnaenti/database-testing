@@ -19,7 +19,7 @@ Sebelum melakukan database testing yang paling utama dibutuhkan adalah database 
 
 3.	Konfigurasi Database:
 
-- 	Pastikan database MySQL sudah berjalan dan Anda memiliki akses ke database yang akan diuji. Yaitu dengan menjalankan XAMPP.
+- 	Pastikan database MySQL sudah berjalan dan memiliki akses ke database yang akan diuji. Yaitu dengan menjalankan XAMPP.
 
  ![image](https://github.com/user-attachments/assets/3ea8e31b-0091-4244-b7ae-280e6fee06d5)
 
